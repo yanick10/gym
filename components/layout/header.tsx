@@ -1,4 +1,6 @@
 import React from 'react'
+import DevenirMembre from './devenirMembre'
+import ReserverSession from './reserverSession'
 
 export default function Header() {
     return (
@@ -13,8 +15,8 @@ export default function Header() {
                     <a href='#' className="mx-2 text-sm font-semibold text-white uppercase transition duration-300 ease-in hover:text-amber-400">entrainement personel</a>
                     <a href='#' className="mx-2 text-sm font-semibold text-white uppercase transition duration-300 ease-in hover:text-amber-400">contact</a>
                     <a href='#' className="mx-2 text-sm font-semibold text-white uppercase transition duration-300 ease-in hover:text-amber-400">autres</a>
-                    <button className="px-2 mx-2 text-sm font-semibold uppercase transition duration-300 ease-in border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black">devenir membre</button>
-                    <button className="px-2 mx-2 text-sm font-semibold uppercase transition duration-300 ease-in border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black">reserver session</button>
+                    <DevenirMembre />
+                    <ReserverSession />
 
                 </ul>
             </div>
@@ -27,7 +29,7 @@ export default function Header() {
 
             <div className="flex justify-between px-12 py-6 ">
                 <button className="px-2 py-6 text-xs font-semibold text-black uppercase transition duration-300 ease-in border-2 border-amber-400 hover:text-amber-400 bg-amber-400 hover:bg-black">acces au cours gratuit</button>
-                <button className="p-4 text-xs text-white bg-black rounded-full ">découvrez nos playlists</button>
+                <button className="p-4 text-xs text-white bg-black rounded-full hover:text-amber-400">découvrez nos playlists</button>
             </div>
         </div>
     )

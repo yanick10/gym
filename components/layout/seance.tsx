@@ -14,7 +14,7 @@ export default function Seance() {
                 <div className="grid grid-cols-3 gap-4 ">
                     <div className=" h-[450px] space-y-2">
                         <div className=" h-[300px] hover:scale-75 transition duration-500 ease-in">
-                            <img src="/images/men.jpg" alt="" className="object-cover h-full hover:grayscale" />
+                            <img src="/images/yoga.jpg" alt="" className="object-cover h-full hover:grayscale" />
                         </div>
                         <div className=" h-[140px]">
                             <a href='#' className="mb-4 text-2xl font-bold text-white uppercase hover:text-amber-400">yoga</a>
@@ -36,7 +36,7 @@ export default function Seance() {
                     </div>
                     <div className=" h-[450px] space-y-2">
                         <div className=" h-[300px] hover:scale-75 transition duration-500 ease-in">
-                            <img src="/images/cat.jpg" alt="" className="object-cover h-full hover:grayscale" />
+                            <img src="/images/sport-1283791_1920.jpg" alt="" className="object-cover h-full hover:grayscale" />
                         </div>
                         <div className=" h-[140px]">
                             <a href='#' className="mb-4 text-2xl font-bold text-white uppercase hover:text-amber-400">STRETCHING</a>
